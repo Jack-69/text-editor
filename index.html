@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Editor</title>
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
 </head>
 <body>
+    <script src="script.js" ></script>
     <section>
         <h1>The Amazing Text Editor Page</h1>
         <textarea placeholder="Enter your unedited text right here!" id="userinput" row="20"></textarea>
         <div id="buttons">
-<button title="Italic" onclick="text_edit1" >
+<button title="Italic" onclick="textedit1()" >
 Italic
 </button>
-<button title="Bold" onclick="text_edit2" >
+<button title="Bold" onclick="textedit2()" >
 Bold
 </button>
-<button title="Lowercase" onclick="text_edit3" >
+<button title="Lowercase" onclick="textedit3()" >
 Lower Case
 </button>
-<button title="Uppercase" onclick="text_edit4" >
+<button title="Uppercase" onclick="textedit4()" >
 Upper Case
 </button>
-<button title="Left Align" onclick="text_edit5" >
+<button title="Left Align" onclick="textedit5()" >
 <i class="fas fa-align-left"></i>
 </button>
-<button title="Center Align" onclick="text_edit6" >
+<button title="Center Align" onclick="textedit6()" >
 <i class="fas fa-align-center"></i>
 </button>
-<button title="Right Align" onclick="text_edit7" >
+<button title="Right Align" onclick="textedit7()" >
 <i class="fas fa-align-right"></i>
 </button>
-<button title="Capitalized" onclick="text_edit8" >
+<button title="Capitalized" onclick="textedit8()" >
 Capitalize
 </button>
-<button title="Clear" onclick="text_edit9" >
+<button title="Clear" onclick="textedit9()" >
 Clear Text
 </button>
         </div>
